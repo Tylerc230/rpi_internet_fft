@@ -1,0 +1,10 @@
+Steps to setup:
+Install linux which supports mmap (for dsnoop) (https://blog.georgmill.de/2015/04/06/update-rt-kernel-for-cirrus-logicwolfson-audio-card/)
+Install icecast
+Install darkice
+pip install --upgrade  pyalsaaudio 
+
+add /etc/asound.conf file
+add /etc/darkice.cfg file
+icecast error logs at /var/log/icecast2/
+
